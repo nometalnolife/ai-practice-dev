@@ -1,0 +1,63 @@
+load:
+  v1:
+    description:
+
+    metadata:
+
+    input_variable:
+      - None
+    input_file:
+      closed_obs_path: s3://sagemaker-us-east-2-800831113641/raw_data/obs_closed_cmit_prodname.csv
+    output_variable:
+      - df_closed_obs
+    output_file:
+
+
+clean:
+  v1_v1:
+    description:
+
+    metadata:
+
+    input_variable:
+      - None
+
+    input_file:
+
+    output_variable:
+      - None
+
+    output_file:
+
+
+transform:
+  v1_v1_v1:
+    description:
+
+    metadata:
+
+    input_variable:
+      - None
+
+    input_file:
+
+    output_file:
+      
+    output_variable:
+      - None
+
+train:
+  v1_v1_v1_v1:
+    description:
+      
+    metadata:
+      
+    input_variable:
+      - None
+
+    input_file:
+      
+    output_file:
+
+    output_variable:
+      - None
